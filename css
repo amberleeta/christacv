@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+}
+
+header p {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+}
+
+.profile-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    padding: 10px 0;
+    margin: 20px 0;
+}
+
+.profile-header {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    width: 20%;
+    text-align: left;
+}
+
+.profile-content {
+    width: 75%;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.profile, .skills {
+    flex: 1;
+    text-align: left;
+}
+
+.profile h2, .skills h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin: 0;
+}
+
+hr {
+    margin: 10px 0;
+    border: 0.5px solid #ccc;
+}
+
+.skills ul {
+    padding-left: 20px;
+}
+
+.employment-education {
+    margin-bottom: 20px;
+}
+
+.employment-history, .education {
+    margin-bottom: 20px;
+}
+
+.employment-history h2, .education h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.employment-history ul, .education ul {
+    list-style: none;
+    padding: 0;
+}
+
+.employment-history li, .education li {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.employment-history .date, .education .date {
+    width: 150px;
+    font-weight: bold;
+}
+
+.employment-history div, .education div {
+    flex: 1;
+}
+
+.languages {
+    margin-bottom: 20px;
+}
+
+.languages h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.languages ul {
+    list-style: none;
+    padding: 0;
+}
+
+.languages li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
